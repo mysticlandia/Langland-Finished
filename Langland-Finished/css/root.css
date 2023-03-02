@@ -1,0 +1,31 @@
+/* Definició de famílies de fonts */
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/MuseoModerno-Bold.woff') format('woff');
+}
+@font-face {
+    font-family:'Latobl';
+    src:url('../fonts/Lato-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Latobold';
+    src:url('../fonts/Lato-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Latoreg';
+    src:url('../fonts/Lato-Regular.woff') format('woff');
+}
+
+:root {
+    /* Definició de colors. */
+    --color_principal: #00bcd4;
+    --color_titols: #6d6767;
+    --color_form: #b2ebf250;
+    --color_uline: #ffecb3;
+
+    /* Definició de variables globals */
+    /*                               */
+    /*        De moment, cap.       */
+}

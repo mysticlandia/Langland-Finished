@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Langland landingpage</title>
+    <link rel="stylesheet" href="css/newstyle.css" />
+  </head>
+  <body>
+    <!-- Layout. Capsa principal que permet organitzar els diferents apartants dins de la pàgina -->
+    <div class="layout">
+      <!--       Definició de la capçalera        -->
+      <header class="cap">
+        <div class="cap-h1">
+          <div>
+            <img class="logo" src="img/logo1.svg" alt="Logo" />
+            <h1>Langland</h1>
+          </div>
+        </div>
+        <h2>Referents ensenyant anglès online</h2>
+        <hr />
+      </header>
+
+      <!-- Definició del cos principal. Dividit en dues parts: un vídeo/imatge -01- i un formulari. -02-  -->
+      <!-- -01- Definició de la part del vídeo/imatge.       -->
+      <div class="video-container">
+        <video id="profe-video" autoplay loop muted>
+          <source src="media/profe.mp4" type="video/mp4" />
+          <source src="media/profe.webm" type="video/webm" />
+        </video>
+      </div>
+
+      <!-- -02- Definició de la part del formulari.       -->
+      <div id="formulari">
+        <form action="cta01.php" method="post">
+          <div class="correu">
+            <h2>Regalem E-book!</h2>
+            <p class="formText">
+              Una guia amb frases i diàlegs esencials que haurieu de conèixer
+              per viatjar pel món anglòfon.
+            </p>
+            <label for="mail" class="formText">
+              Correu electrònic:
+              <input type="email" name="correu-electronic" id="mail" required />
+            </label>
+          </div>
+          <div class="boto">
+            <button type="submit" class="button">ENVIEU-M'HO</button>
+          </div>
+          <div class="legal">
+            <a href="legales.html" class="formText">Política de privadesa</a>
+            <label for="legal" class="formText">
+              <input type="checkbox" name="condicions" id="legal" required />
+              Accepto
+            </label>
+          </div>
+        </form>
+      </div>
+
+      <!-- Aside amb resum de beneficis i pros de l'empresa -->
+      <aside id="beneficis">
+        <div class="subsec">
+          <img src="./img/quadrat.svg" alt="rombe bonic" />
+          Professors especialitzats
+        </div>
+        <div class="subsec">
+          <img src="./img/quadrat.svg" alt="rombe bonic" />
+          Des de qualsevol dispositiu
+        </div>
+        <div class="subsec">
+          <img src="./img/quadrat.svg" alt="rombe bonic" />
+          Flexibilitat horària
+        </div>
+        <div class="subsec">
+          <img src="./img/quadrat.svg" alt="rombe bonic" />
+          Dirigit a tots els nivells
+        </div>
+      </aside>
+
+      <!-- Conté només els enllaços a les xarxes socials, ara per ara -->
+      <footer class="foot">
+        <hr />
+        <a href="https://www.facebook.com">
+          <img src="socialmedia/fb.svg" alt="Facebook link" />
+        </a>
+        <a href="https://www.twitter.com">
+          <img src="socialmedia/twit.svg" alt="Twitter link" />
+        </a>
+        <a href="https://www.instagram.com">
+          <img src="socialmedia/inst.svg" alt="Instagram link" />
+        </a>
+        <a href="https://www.linkedin.com">
+          <img src="socialmedia/lkn.svg" alt="LinkedIn link" />
+        </a>
+        <hr />
+      </footer>
+    </div>
+  </body>
+</html>
